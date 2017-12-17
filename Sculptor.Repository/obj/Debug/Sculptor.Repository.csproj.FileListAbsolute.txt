@@ -1,0 +1,9 @@
+D:\Project_Chirag\NagarCast\Sculptor.NagarCast\Sculptor.Repository\bin\Debug\Sculptor.Repository.dll.config
+D:\Project_Chirag\NagarCast\Sculptor.NagarCast\Sculptor.Repository\bin\Debug\Sculptor.Repository.dll
+D:\Project_Chirag\NagarCast\Sculptor.NagarCast\Sculptor.Repository\bin\Debug\Sculptor.Repository.pdb
+D:\Project_Chirag\NagarCast\Sculptor.NagarCast\Sculptor.Repository\bin\Debug\EntityFramework.dll
+D:\Project_Chirag\NagarCast\Sculptor.NagarCast\Sculptor.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\Project_Chirag\NagarCast\Sculptor.NagarCast\Sculptor.Repository\bin\Debug\EntityFramework.xml
+D:\Project_Chirag\NagarCast\Sculptor.NagarCast\Sculptor.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\Project_Chirag\NagarCast\Sculptor.NagarCast\Sculptor.Repository\obj\Debug\Sculptor.Repository.dll
+D:\Project_Chirag\NagarCast\Sculptor.NagarCast\Sculptor.Repository\obj\Debug\Sculptor.Repository.pdb
