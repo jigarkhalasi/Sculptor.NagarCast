@@ -1,6 +1,28 @@
-﻿@{
+﻿@model Sculptor.NagarCast.Models.UserModel 
+@{
     ViewBag.Title = "AddUser";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>AddUser</h2>
+@using (Html.BeginForm("SubmitUser", "User", FormMethod.Post))
+{
+    
+     @*@Html.TextBox("UserId", null, new { @class = "form-control" })*@
+    @Html.TextBox("Name", null, new { @class = "form-control" })
+    @Html.TextBox("AddressId", null, new { @class = "form-control" })
+    @Html.TextBox("CastMasterId", null, new { @class = "form-control" })
+    @Html.TextBox("Education", null, new { @class = "form-control" })
+    @Html.TextBox("Village", null, new { @class = "form-control" })
+    @Html.TextBox("Gender", null, new { @class = "form-control" })
+    @Html.TextBox("BirthDate", null, new { @class = "form-control" })
+    @Html.TextBox("BirthTime", null, new { @class = "form-control" })
+    @Html.TextBox("WorkStatus", null, new { @class = "form-control" })
+    @Html.TextBox("WorkDetail", null, new { @class = "form-control" })
+    @Html.TextBox("Image", null, new { @class = "form-control" })
+    @Html.TextBox("LiveStatus", null, new { @class = "form-control" })
+    @Html.TextBox("DeathTime", null, new { @class = "form-control" })
+    
+    <input type="submit" value="save" />
+}
+
+

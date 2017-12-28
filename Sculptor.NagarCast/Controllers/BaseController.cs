@@ -9,7 +9,7 @@ namespace Sculptor.NagarCast.Controllers
 {
     public class BaseController : Controller
     {
-        public Sculptor.Repository.NagarCast _objContext = new Sculptor.Repository.NagarCast();
+        public NagarCastEntities _objContext = new NagarCastEntities();
 
         protected override void OnActionExecuting(ActionExecutingContext filterContext)
         {
