@@ -51,7 +51,7 @@
     <Compile Include="AddressMaster.cs" />
     <Compile Include="CastMaster.cs" />
     <Compile Include="LoginMaster.cs" />
-    <Compile Include="NagarCast.cs" />
+    <Compile Include="NagarCastEntities.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserMapping.cs" />
     <Compile Include="UserMaster.cs" />

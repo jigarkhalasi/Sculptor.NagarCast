@@ -1,4 +1,5 @@
-﻿using Sculptor.Repository;
+﻿using Sculptor.NagarCast.Models;
+using Sculptor.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,13 +19,14 @@ namespace Sculptor.NagarCast.Controllers
         }
 
         [HttpGet]
-        public ActionResult AddUser(UserMaster model)
+        public ActionResult AddUser(UserModel model)
         {
             return View(model);
         }
 
         [HttpPost]
-        public ActionResult SubmitUser(UserMaster model)
+        //[ValidateAntiForgeryToken]
+        public ActionResult SubmitUser(UserModel model)
         {
             return View(model);
         }
